@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  .content-back
+    a(href="/" class="back") 
+      span back
+  div(class="content-list")
+    ul
+      each experiment in experiments
+        li
+          .img-content
+            img(src=`/uploads/${experiment.file}`)
+          p= experiment.title
+      else
+        li There are no experiment
+        

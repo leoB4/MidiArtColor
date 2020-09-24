@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Le Murmure';
+    src: url('LeMurmure-Regular.woff2') format('woff2'),
+        url('LeMurmure-Regular.woff') format('woff'),
+        url('LeMurmure-Regular.svg#LeMurmure-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans Condensed';
+    src: url('OpenSansCondensed-Light.woff2') format('woff2'),
+        url('OpenSansCondensed-Light.woff') format('woff'),
+        url('OpenSansCondensed-Light.svg#OpenSansCondensed-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
